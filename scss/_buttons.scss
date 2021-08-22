@@ -1,0 +1,16 @@
+.btn-link {
+  border: solid 1px $light-color;
+  border-radius: 29px;
+  font-weight: 600;
+  font-size: $font-content-m;
+}
+
+.btn-active {
+  border: solid 1px $active-color;
+}
+
+.btn-footer {
+  border-radius: 10px;
+  font-size: $font-small-content-s;
+  font-weight: 500;
+}

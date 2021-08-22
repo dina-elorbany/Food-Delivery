@@ -1,0 +1,21 @@
+.imgs-container {
+  transform: translate(0, -8%);
+  .left,
+  .right {
+    max-width: 50%;
+    object-fit: cover;
+  }
+  .left {
+    transform: translate(6%, 0);
+  }
+  .right {
+    transform: translate(-6%, 15%);
+    z-index: -1;
+  }
+}
+
+@media (max-width: 718px) {
+  .banner {
+    height: 100vh;
+  }
+} ;

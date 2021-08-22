@@ -1,0 +1,17 @@
+.banner {
+  background-image: $header-bg;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: $light-color;
+  h1 {
+    color: $basic-color;
+    font-size: $font-title-xxl;
+    font-family: $title-font-family;
+    line-height: 5rem;
+  }
+
+  h4:first-child {
+    font-weight: 700;
+  }
+}

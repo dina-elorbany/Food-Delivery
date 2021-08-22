@@ -1,0 +1,32 @@
+hr {
+  color: $hr-color;
+  padding: 2.5px;
+}
+.how-title {
+  font-size: $font-title-xl;
+  font-family: $font-content-title-l;
+  font-weight: 900;
+}
+.how-works {
+  font-size: $font-content-m;
+  height: fit-content;
+  img {
+    width: 100%;
+  }
+
+  p:first-child {
+    color: $active-color;
+    font-weight: 700;
+  }
+
+  p:last-child {
+    font-weight: 600;
+    color: $semi-dark-color;
+  }
+
+  h2 {
+    color: $dark-color;
+    font-size: $font-content-title-l;
+    font-weight: 800;
+  }
+}

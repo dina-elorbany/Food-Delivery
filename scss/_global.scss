@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $font-content-m;
+  font-family: $body-font-family;
+}
+
+a,
+a:hover,
+.btn,
+.btn:hover {
+  text-decoration: none;
+  color: $basic-color;
+}
+
+.btn-active {
+  background-color: $active-color;
+}
+
+.active {
+  color: $active-color;
+}
